@@ -6,4 +6,4 @@ BEGIN {
     use_ok( 'Catalyst::Model::Redis' ) || print "Bail out!\n";
 }
 
-diag( "Testing ZWON::Module::Starter $ZWON::Module::Starter::VERSION, Perl $], $^X" );
+diag( "Testing Catalyst::Model::Redis $Catalyst::Model::Redis::VERSION, Perl $], $^X" );
