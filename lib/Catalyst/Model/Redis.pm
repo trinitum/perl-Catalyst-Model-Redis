@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base 'Catalyst::Model';
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 $VERSION = eval $VERSION;
 
 use MRO::Compat;
