@@ -17,4 +17,15 @@ WriteMakefile(
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'Catalyst-Model-Redis-*' },
+    META_MERGE => {
+        no_index => {
+            file => 'README.pod'
+        },
+        resources => {
+            homepage   => 'https://github.com/trinitum/perl-Catalyst-Model-Redis',
+            bugtracker => 'https://github.com/trinitum/perl-Catalyst-Model-Redis/issues',
+            repository => 'git://github.com/trinitum/perl-Catalyst-Model-Redis',
+            license    => 'http://dev.perl.org/licenses/',
+        },
+    },
 );
